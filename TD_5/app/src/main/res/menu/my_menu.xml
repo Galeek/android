@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my_app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/searchActionBarItem"
+        android:title="Search Title"
+        my_app:actionViewClass="android.support.v7.widget.SearchView"
+        my_app:showAsAction="ifRoom"/>
+        <!--android:icon="@drawable/ic_action_search"-->
+
+
+    <item
+        android:id="@+id/searchMenuItem"
+        android:title="Search Title"
+        my_app:showAsAction="never"/>
+    <!--android:icon="@drawable/ic_action_search"-->
+</menu>
